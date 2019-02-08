@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffff"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="315dp"
+        android:src="@drawable/face"/>
+
+
+    <ListView
+        android:id="@+id/test_activity_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:visibility="invisible" />
+
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="349dp"
+        android:layout_height="51dp"
+        android:background="#6200EE"
+        android:text="START"
+        android:textColor="#ffff"
+        android:textSize="18dp" />
+
+</LinearLayout>
